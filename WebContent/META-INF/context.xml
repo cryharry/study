@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/study" docBase="D:\apache-tomcat-7.0.54\webapps\study" crossContext="true">
+    <Resource name="jdbc/jsptest"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+
+              loginTimeout="10"
+              maxWait="5000"
+              username="jspid"
+              password="jsppass"
+              testOnBorrow="true"
+              url="jdbc:mysql://localhost:3306/jsptest" />
+</Context>
