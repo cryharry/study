@@ -11,9 +11,9 @@
     Connection con = null;
 
     try {
-        String jdbcUrl = "jdbc:mysql://localhost:3306/jsptest";
-        String dbId = "jspid";
-        String dbPass = "jsppas";
+        String jdbcUrl = "jdbc:mysql://202.68.231.19:3306/sinyoung";
+        String dbId = "sinyoung";
+        String dbPass = "sin817";
 
         Class.forName("con.mysql.jdbc.Driver");
         con = DriverManager.getConnection(jdbcUrl, dbId, dbPass);
